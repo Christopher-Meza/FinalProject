@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<nav>
+  <div class="wrapper">
+    <div class="logo">
+      <div class="logoo">
+        <a href="index.html"><img src="PixelVerse.png" href=index.html width="100" height="100"></a>
+      </div>
+    </div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="ourwork.html">Our Work</a></li>
+      <li>
+        <a href="aboutus.html" class="desktop-item">About Us</a>
+        <input type="checkbox" id="showDrop">
+        <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+        <!--<ul class="drop-menu">
+            <li><a href="#">Drop menu 1</a></li>
+            <li><a href="#">Drop menu 2</a></li>
+            <li><a href="#">Drop menu 3</a></li>
+            <li><a href="#">Drop menu 4</a></li>
+          </ul>-->
+      </li>
+      <li>
+        <a href="Accessories.html" class="desktop-item"">Products </a>
+          <input type=" checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Mega Menu</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="PixelArt.jpeg" alt="">
+              </div>
+              <div class="row">
+                <header>Design Services</header>
+                <ul class="mega-links">
+                  <li><a href="#">Graphics</a></li>
+                  <li><a href="#">Vectors</a></li>
+                  <li><a href="#">Business cards</a></li>
+                  <li><a href="#">Custom logo</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Games</header>
+                <ul class="mega-links">
+                  <li><a href="#">Xbox</a></li>
+                  <li><a href="#">Playstation</a></li>
+                  <li><a href="#">Nintendo</a></li>
+                  <li><a href="#">PC</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Video Games</header>
+                <ul class="mega-links">
+                  <li><a href="Accessories.html"> All Games</a></li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+      </li>
+      <li><a href="contactus.html">Contact</a></li>
+    </ul>
+    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+  </div>
+</nav>
+
+<div class="progress-container">
+  <div class="progress-bar" id="myBar"></div>
+</div>
+
+
+<video autoplay muted loop id="myVideo">
+  <source src="Clip.mp4" type="video/mp4">
+</video>
+
+
+<body class=" main-body">
+  <main>
+    <!--<section id="hero-image">-->
+    <div class="hero-marketing-text">
+      <h1>What is <span>PixelVerse?</span> </h1>
+      <h5>Pixelverse is a top gaming website loaded with all sorts of games for everyone. Dive in and find your
+        favorites, whether you're into relaxed fun or serious competition. Jump in and let the gaming begin! </h5>
+    </div>
+    </section>
+
+    <section id="latest-news">
+      <div class="flex">
+        <h5>Latest News</h5>
+        <div id="latest-news-container">
+          <div class="latest-news-item">
+            <span class="badge new">New</span>
+            <span class="latest-news-text">Pixelverse is a new running website</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="game-types-boxes">
+      <div class="flex">
+        <div class="box new">
+          <div class="shade"></div>
+          <span class="badge new">New</span>
+          <div class="contents">
+            <h4>VALORANT: MYSTBLOOM BUNDLE</h4>
+            <p>With Valorant's Episode 8 Act 3 starting soon, Riot has revealed a new bundle coming to the game called
+              Mystbloom. As the rumors suggested, this is a flower-themed skinline with pink as its primary color.
+
+            </p>
+          </div>
+        </div>
+
+        <div class="box strategy">
+          <div class="shade"></div>
+          <span class="badge strategy">New</span>
+          <div class="contents">
+            <h4>LETHAL COMPANY: BUTLER</h4>
+            <p>Butlers shuffle from room to room, holding a broom which they use to clean the surrounding area. When
+              provoked, they become enraged and will take out a knife with which they attempt to stab the player.</p>
+          </div>
+        </div>
+
+        <div class="box rpg">
+          <div class="shade"></div>
+          <span class="badge rpg">New</span>
+          <div class="contents">
+            <h4>GRAND THEFT AUTO</h4>
+            <p>May 2nd, 2024: Open Wheel Race Bonuses, Rockstar Racing Suit, 4x GTA$ on Taxi Work, and More</p>
+          </div>
+        </div>
+
+        <div class="box racing">
+          <div class="shade"></div>
+          <span class="badge racing">New</span>
+          <div class="contents">
+            <h4>Forza</h4>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recent-games">
+      <h1>Recent Games</h1>
+      <div class="flex">
+        <div class="box">
+          <span class="badge new">Game</span>
+          <img src="OV.jpeg" />
+          <div class="box-lower-section">
+            <h4>Overwatch 2</h4>
+            <p>Overwatch 2 is a free-to-play, always-on, and ever-evolving live game. Team up with friends regardless of
+              platform and jump into the reimagined PvP experience.</p>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="badge racing">Game</span>
+          <img src="Rainbow.jpeg" />
+          <div class="box-lower-section">
+            <h4>Rainbow Six Seige</h4>
+            <p>Tom Clancy's Rainbow Six Siege is a first-person shooter game, in which players utilize many different
+              operators from the Rainbow team. Different operators have different nationalities, weapons, and
+              gadgets.[3] The game features an asymmetrical structure whereby the teams are not always balanced in their
+              choices of abilities.</p>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="badge adventure">VR Game</span>
+          <img src="Batman1.png" />
+          <div class="box-lower-section">
+            <h4>Batman Arkham Shadow</h4>
+            <p>Today, Meta has announced that the next entry in the iconic Batman: Arkham series will be Batman: Arkham
+              Shadow, a VR game that’s exclusive to the Meta Quest 3.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tournaments">
+      <div class="flex">
+        <span class="badge tournaments">Tournaments</span>
+        <div class="box">
+          <span class="badge premium-tournament">Recently Added</span>
+          <div class="tournaments-image">
+            <img src="Fortnite1.webp" />
+          </div>
+
+          <div class="tournaments-content">
+            <h3>FORTNITE</h3>
+            <div><label>Tournament Begins:</label> <strong>N/A </strong></div>
+            <div><label>Tournament Ends:</label> <strong>N/A</strong></div>
+            <div><label>Participants:</label> <strong>100 Players</strong></div>
+            <div><label>Tournament Organizer:</label> <strong>Pixelverse</strong></div>
+            <div><label class="prizes">Prizes:</label> <label>1st place $2000, 2nd place: $1000, 3rd place: $500</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="badge premium-tournament">Premium Tournament</span>
+          <div class="tournaments-image">
+            <img src="Val4.avif" />
+          </div>
+          <div class="tournaments-content">
+            <h3>VALORANT</h3>
+            <div><label>Tournament Begins:</label> <strong>N/A</strong></div>
+            <div><label>Tournament Ends:</label> <strong>N/A</strong></div>
+            <div><label>Participants:</label> <strong>10 teams</strong></div>
+            <div><label>Tournament Organizer:</label> <strong>Pixelverse</strong></div>
+            <div><label class="prizes">Prizes:</label> <label>1st place $3000, 2nd place: $2000, 3rd place:
+                $1000</label></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recent-reviews">
+      <h1>TOP GAMES </h1>
+      <div class="flex">
+        <div class="box">
+          <span class="rating-badge gold">1</span>
+          <div class="recent-reviews-image">
+            <img src="AA.jpg" />
+          </div>
+          <div>
+            <h4>Assasin's Creed</h4>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="rating-badge purple">2</span>
+          <div class="recent-reviews-image">
+            <img src="DOOM.jpeg" />
+          </div>
+          <div>
+            <h4>Doom</h4>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="rating-badge green">3</span>
+          <div class="recent-reviews-image">
+            <img src="O2.jpg" />
+          </div>
+          <div>
+            <h4>Overwatch</h4>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="rating-badge violet">4</span>
+          <div class="recent-reviews-image">
+            <img src="B.jpeg" />
+          </div>
+          <div>
+            <h4>GTA</h4>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="posts-comments">
+      <div class="flex">
+        <div class="game-warrior">
+          <img src="Name.png" width=426" />
+          <p></p>
+          <img class="footer-graphic" src="file.png" />
+        </div>
+
+        <div class="posts-comments-box">
+          <h3>Latest Posts</h3>
+          <div class="post-item">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/latest_posts_1.jpg" />
+            <div>
+              <h5>June 21, 2019</h5>
+              <p>PUBG: BATTLEGROUNDS</p>
+              <small>By: Admin</small>
+            </div>
+          </div>
+
+          <div class="post-item">
+            <img src="Poki.png" />
+            <div>
+              <h5>June 21, 2019</h5>
+              <p>Pokemon</p>
+              <small>By: Admin</small>
+            </div>
+          </div>
+
+          <div class="post-item">
+            <img src="Beyblade.jpg" />
+            <div>
+              <h5>June 21, 2019</h5>
+              <p>Beyblade</p>
+              <small>By: Admin</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="posts-comments-box">
+          <h3>Top Comments</h3>
+          <div class="comments-item">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_1.jpg" />
+            <div>
+              <p><span class="author">James Smith</span> <span>on</span> Cool Website</p>
+              <h5>June 21, 2019</h5>
+            </div>
+          </div>
+
+          <div class="comments-item">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_2.jpg" />
+            <div>
+              <p><span class="author">Alex Smith</span> <span>on</span> W's in the CHAAATT</p>
+              <h5>June 21, 2019</h5>
+            </div>
+          </div>
+
+          <div class="comments-item">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_3.jpg" />
+            <div>
+              <p><span class="author">Jacob Smith</span> <span>on</span> Good Website</p>
+              <h5>June 21, 2019</h5>
+            </div>
+          </div>
+
+          <div class="comments-item">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_4.jpg" />
+            <div>
+              <p><span class="author">Tyler Smith</span> <span>on</span> Keep up the good work</p>
+              <h5>June 21, 2019</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="home.js"></script>
+</body>
+
+<footer>
+  <div class="footer">
+    <div class="contain">
+      <div class="col">
+        <h1>Company</h1>
+        <ul>
+          <li>About</li>
+          <li>Mission</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h1>Products</h1>
+        <ul>
+          <li>Xbox </li>
+          <li>Playstation</li>
+          <li>Pc's</li>
+          <li>Toys</li>
+          <li>Nintendo</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h1><a href="contactus.html">Contact Us</a></h1>
+        <ul>
+          <li> <a href="contactus.html">PixelVerse@gmail.com</li>
+          <li> <a href="contactus.html"> 203-123-1234</li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h1>Support</h1>
+        <ul>
+          <li>Donate</li>
+        </ul>
+      </div>
+      <div class="col social">
+        <h1>Social</h1>
+        <ul>
+          <li><img src="Twitter2.png" width="32" style="width: 32px;"></li>
+          <li><img src="pixel-insta.png" width="32" style="width: 32px;"></li>
+          <li><img src="Tiktok.webp" width="32" style="width: 30px;"></li>
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</footer>
+
+</html>

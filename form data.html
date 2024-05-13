@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+  <div class="results">
+    <h2>Form Data</h2>
+    <pre></pre>
+  </div>
+
+  <div id="fileDropdown">
+    <label for="fileSelect">Website Message</label>
+    <select id="fileSelect" onchange="loadData()">
+      <option value="default">Please select an option....</option>
+      <option value="data.json">All Data</option>
+    </select>
+  </div>
+  <div id="filterDropdown">
+    <label for="filterSelect">Category</label>
+    <select id="filterSelect" onchange="loadData()">
+      <option value="default">Please select an option....</option>
+      <option value="fname">First Name</option>
+      <option value="lname">Last Name</option>
+      <option value="email">Email</option>
+      <option value="text">Message</option>
+    </select>
+  </div>
+  <div id="jsonDataDisplay"></div>
+  <div id="data-container">
+    <table id="data-table">
+      <thead id="data-header"></thead>
+      <tbody id="data-body"></tbody>
+    </table>
+  </div>
+
+</body>
+
+</html>
+</body>
+
+</html>

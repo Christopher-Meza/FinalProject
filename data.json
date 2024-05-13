@@ -1,0 +1,22 @@
+[
+  {
+    "fname": "Kira",
+    "lname": "Nightingale",
+    "email": "knight@gmail.com",
+    "text": "Love your website!"
+  },
+
+  {
+    "fname": "Jackson",
+    "lname": "Key",
+    "email": "jkey@gmail.com",
+    "text": "Looking for a contractor...shoot me and email back!"
+  },
+
+  {
+    "fname": "Alex",
+    "lname": "Smith",
+    "email": "asmith@gmail.com",
+    "text": "Have some criticisms..."
+  }
+]

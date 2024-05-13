@@ -1,0 +1,125 @@
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.resizable-image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.button {
+  transition-duration: 0.4s;
+  background-color: transparent;
+  color: white;
+}
+
+.topnav :hover {
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.first-fourth :hover {
+  color: white;
+  transition-duration: 0.4s;
+}
+
+body {
+  scroll-behavior: smooth;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+  overflow: auto;
+  background-color: #130805;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  scroll-behavior: fixed;
+}
+
+.body-container {
+  z-index: 2;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 15%;
+  padding: 0;
+  border: 50px solid #130805;
+  max-width: 100%;
+}
+
+.header {
+  height: 15vh;
+  padding: 0;
+  width: 100%;
+  background-color: #130805;
+  z-index: 5;
+}
+
+
+.first-fourth {
+  background-color: transparent;
+  height: 25%;
+  width: 100%;
+  z-index: 3;
+  position: absolute;
+  line-height: 25%;
+  top: 0;
+  padding: 0;
+}
+
+.second-fourth {
+  background-color: transparent;
+  height: 25%;
+  width: 100%;
+  z-index: 3;
+  position: absolute;
+  line-height: 25%;
+  top: 25%;
+}
+
+.third-fourth {
+  background-color: transparent;
+  height: 25%;
+  width: 100%;
+  z-index: 3;
+  position: absolute;
+  line-height: 25%;
+  top: 50%;
+}
+
+.fourth-fourth {
+  background-color: transparent;
+  height: 25%;
+  width: 100%;
+  line-height: 25%;
+  z-index: 3;
+  position: absolute;
+  top: 75%;
+}
+
+
+
+/*references
+
+https://dev.to/lennythedev/css-gotcha-how-to-fill-page-with-a-div-270j
+https://www.w3schools.com/css/css_positioning.asp
+https://www.geeksforgeeks.org/how-to-make-div-fixed-after-scroll-to-that-div/
+https://www.w3schools.com/cssref/sel_hover.php
+https://www.w3schools.com/css/css_align.asp
+
+*/
